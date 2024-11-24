@@ -114,7 +114,7 @@ def get_product_demographics(df, product_name):
 
 def main():
     # Define file path
-    file_path = 'C:\\Users\\Jainivas Anandhan\\dataset.csv'
+    file_path = 'dataset.csv'
 
     df = load_data(file_path)
     if df is None:
